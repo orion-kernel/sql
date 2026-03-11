@@ -4,46 +4,46 @@
 --     VALUES ( &eno,'&ename','&job','&hr',&sl,&cm,&dno);
 
 INSERT INTO emp (empno, ename, job, hiredate, sal, comm, deptno)
-VALUES (7369, 'SMITH', 'CLERK', DATE '13-JAN-03', 800, NULL, 20);
+VALUES (7369, 'SMITH', 'CLERK', '13-JAN-03', 800, NULL, 20);
 
 INSERT INTO emp (empno, ename, job, hiredate, sal, comm, deptno)
-VALUES (7499, 'ALLEN', 'SALESMAN', DATE '15-AUG-03', 1600, 300, 30);
+VALUES (7499, 'ALLEN', 'SALESMAN', '15-AUG-03', 1600, 300, 30);
 
 INSERT INTO emp (empno, ename, job, hiredate, sal, comm, deptno)
-VALUES (7521, 'WARD', 'SALESMAN', DATE '26-MAR-04', 1250, 500, 30);
+VALUES (7521, 'WARD', 'SALESMAN', '26-MAR-04', 1250, 500, 30);
 
 INSERT INTO emp (empno, ename, job, hiredate, sal, comm, deptno)
-VALUES (7566, 'JONES', 'MANAGER', DATE '31-OCT-03', 2975, NULL, 20);
+VALUES (7566, 'JONES', 'MANAGER', '31-OCT-03', 2975, NULL, 20);
 
 INSERT INTO emp (empno, ename, job, hiredate, sal, comm, deptno)
-VALUES (7654, 'MARTIN', 'SALESMAN', DATE '05-DEC-03', 1250, 1400, 30);
+VALUES (7654, 'MARTIN', 'SALESMAN', '05-DEC-03', 1250, 1400, 30);
 
 INSERT INTO emp (empno, ename, job, hiredate, sal, comm, deptno)
-VALUES (7698, 'BLAKE', 'MANAGER', DATE '11-JUN-04', 2850, NULL, 30);
+VALUES (7698, 'BLAKE', 'MANAGER', '11-JUN-04', 2850, NULL, 30);
 
 INSERT INTO emp (empno, ename, job, hiredate, sal, comm, deptno)
-VALUES (7782, 'CLARK', 'MANAGER', DATE '14-MAY-04', 2450, NULL, 10);
+VALUES (7782, 'CLARK', 'MANAGER', '14-MAY-04', 2450, NULL, 10);
 
 INSERT INTO emp (empno, ename, job, hiredate, sal, comm, deptno)
-VALUES (7788, 'SCOTT', 'ANALYST', DATE '05-MAR-04', 3000, NULL, 20);
+VALUES (7788, 'SCOTT', 'ANALYST', '05-MAR-04', 3000, NULL, 20);
 
 INSERT INTO emp (empno, ename, job, hiredate, sal, comm, deptno)
-VALUES (7839, 'KING', 'PRESIDENT', DATE '09-JUL-04', 5000, NULL, 10);
+VALUES (7839, 'KING', 'PRESIDENT', '09-JUL-04', 5000, NULL, 10);
 
 INSERT INTO emp (empno, ename, job, hiredate, sal, comm, deptno)
-VALUES (7844, 'TURNER', 'SALESMAN', DATE '04-JUN-04', 1500, NULL, 30);
+VALUES (7844, 'TURNER', 'SALESMAN', '04-JUN-04', 1500, NULL, 30);
 
 INSERT INTO emp (empno, ename, job, hiredate, sal, comm, deptno)
-VALUES (7876, 'ADAMS', 'CLERK', DATE '04-JUN-05', 1100, NULL, 20);
+VALUES (7876, 'ADAMS', 'CLERK', '04-JUN-05', 1100, NULL, 20);
 
 INSERT INTO emp (empno, ename, job, hiredate, sal, comm, deptno)
-VALUES (7900, 'JAMES', 'CLERK', DATE '23-JUL-04', 950, NULL, 30);
+VALUES (7900, 'JAMES', 'CLERK', '23-JUL-04', 950, NULL, 30);
 
 INSERT INTO emp (empno, ename, job, hiredate, sal, comm, deptno)
-VALUES (7902, 'FORD', 'ANALYST', DATE '05-DEC-03', 3000, NULL, 20);
+VALUES (7902, 'FORD', 'ANALYST', '05-DEC-03', 3000, NULL, 20);
 
 INSERT INTO emp (empno, ename, job, hiredate, sal, comm, deptno)
-VALUES (7934, 'MILLER', 'CLERK', DATE '21-NOV-03', 1300, NULL, 10);
+VALUES (7934, 'MILLER', 'CLERK', '21-NOV-03', 1300, NULL, 10);
 
 
 
