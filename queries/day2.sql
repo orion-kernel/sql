@@ -52,3 +52,66 @@ select ename
 select ename,empno
     from emp
     where mgrno IS NOT NULL;
+
+-- Select employee name and number for all employees who have not a manager
+SELECT ename, empno FROM emp
+WHERE mgrno IS NULL;
+
+-- Select employee and job names where jobs do not start with the letter 'M'
+SELECT ename, job FROM emp
+WHERE job NOT LIKE 'M%';
+
+-- display empno, job, sal, of all emp where emp is a clerk and salary is in 10000 and 20000
+SELECT empno, job, sal FROM emp
+WHERE
+job = 'CLERK'
+AND
+sal BETWEEN 1000 and 2000;
+
+-- display empno, job, sal, of all emp where emp is a clerk or salary is in 10000 and 20000
+SELECT empno, job, sal FROM emp
+WHERE
+job = 'CLERK'
+OR
+sal BETWEEN 1000 and 2000;
+
+-- display empno, job, deptno, of all emp who are managers earn salary over 5000 or a salesman
+SELECT empno, job, deptno FROM emp
+WHERE
+sal > 5000 AND job = 'SALESMAN'
+OR
+job = 'MANAGER';
+
+-- select all the managers and salesman with salary over 5000 and display empno, ename, job, sal, deptno
+SELECT ename, empno, job, sal, deptno FROM emp
+WHERE
+sal > 5000
+AND
+job IN ('MANAGER', 'SALESMAN');
+
+-- display deptno and dname in order of dename.
+SELECT dname, deptno FROM dept
+ORDER BY dname;
+
+-- display all different jobs
+SELECT DISTINCT job FROM emp;
+
+-- ditails of all emp in deptno 10 and 20 in alphabetical order of name.
+SELECT * FROM emp
+WHERE deptno IN (10, 20)
+ORDER BY ename;
+
+-- display name of employee who is clerk and in deptno 20
+SELECT ename FROM emp
+WHERE
+job = 'CLERK' AND deptno = '20';
+
+-- show the name of employee who has 'th' and 'll' in there name.
+SELECT ename FROM emp
+WHERE
+ename LIKE '%TH%'
+OR
+ename LIKE '%LL%';
+
+-- dispaly name and remunation of all the employee
+SELECT ename, sal * 12 + NVL(comm, 0) remunation FROM emp;
