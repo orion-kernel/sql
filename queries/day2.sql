@@ -115,3 +115,14 @@ ename LIKE '%LL%';
 
 -- dispaly name and remunation of all the employee
 SELECT ename, sal * 12 + NVL(comm, 0) remunation FROM emp;
+
+-- dispaly name and remunation and hirdate of all the employee who are employeed on year of 03
+SELECT ename, sal * 12 + NVL(comm, 0) remu, hiredate FROM emp
+WHERE
+hiredate LIKE '%03';
+
+-- display name annual salary where salary is greater than commission and sort on salary
+-- highest first, if two or more same salary then sort by ename within the highest salary order.
+SELECT ename, sal * 12 + NVL(comm, 0) remunation FROM emp
+WHERE sal > comm 
+ORDER BY sal DESC , ename;
