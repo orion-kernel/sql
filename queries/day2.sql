@@ -68,7 +68,7 @@ job = 'CLERK'
 AND
 sal BETWEEN 1000 and 2000;
 
--- 15. display empno, job, sal, of all emp where emp is a clerk or salary is in 10000 and 20000
+-- 15. display empno, job, sal, of all emp where emp is a clerk or salary is in 1000 and 2000
 SELECT empno, job, sal FROM emp
 WHERE
 job = 'CLERK'
