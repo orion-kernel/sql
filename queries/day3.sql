@@ -2,9 +2,11 @@
 SELECT LOWER(ename), LOWER('SQL') FROM emp;
 
 -- 2. Converts employee names and the string 'SQL' to uppercase.
-SELECT ename FROM emp
-WHERE ename = UPPER('&ename');
+-- SELECT ename FROM emp
+-- WHERE ename = UPPER('&ename');
 
+SELECT UPPER(ename), UPPER('SQL')
+FROM emp;
 -- 3. Capitalizes the first letter of each employee name and lowers the rest.
 SELECT INITCAP(ename) FROM emp;
 
