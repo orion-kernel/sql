@@ -24,7 +24,7 @@ WHERE sal BETWEEN 1000 AND 2000;
 
 -- 5. Exponents (Power)
 -- Demonstrates the POWER function to raise a base number to a specified exponent.
-SELECT POWER(sal, 2), POWER(50, 5), POWER(99, 9999) 
+SELECT POWER(sal, 2), POWER(50, 5) 
 FROM emp
 WHERE deptno = 10;
 
