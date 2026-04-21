@@ -1,3 +1,6 @@
+-- TOPICS: Joins (Equi-joins, Non-equi-joins, Self-joins, Outer Joins), 
+-- Set Operators (UNION, UNION ALL, INTERSECT, MINUS).
+
 -- 1. Retrieves the department number, job title, and department name by joining the employee (emp) and department (dept) tables.
 SELECT e.deptno,
        e.job,

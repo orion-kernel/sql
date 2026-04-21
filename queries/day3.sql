@@ -1,3 +1,6 @@
+-- TOPICS: Character Functions (LOWER, UPPER, INITCAP, CONCAT, LPAD, RPAD, 
+-- LTRIM, RTRIM, SUBSTR, INSTR, LENGTH, TRANSLATE, REPLACE).
+
 -- 1. Converts employee names and the string 'SQL' to lowercase.
 SELECT LOWER(ename), LOWER('SQL') FROM emp;
 

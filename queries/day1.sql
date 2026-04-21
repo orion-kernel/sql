@@ -1,3 +1,6 @@
+-- TOPICS: Basic Selection, Arithmetic Operations, Aliases, Null Handling (NVL), 
+-- String Concatenation, Distinct Values, Sorting (ORDER BY).
+
 ---------------------------------------------------------
 -- BASIC SELECTION
 ---------------------------------------------------------

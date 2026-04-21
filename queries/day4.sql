@@ -1,3 +1,6 @@
+-- TOPICS: Numeric Functions (ROUND, TRUNC, CEIL, FLOOR, POWER, EXP, SQRT, 
+-- SIGN, ABS, MOD), Dual Table.
+
 -- 1. Rounding Numbers
 -- Demonstrates the ROUND function to round numeric values and calculated columns to a specific number of decimal places.
 SELECT ROUND(45.923, 1), ROUND(45.923), ROUND(45.323, 1), ROUND(45.323), ROUND(45.323, -1), ROUND(sal/32) 

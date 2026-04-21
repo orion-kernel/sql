@@ -1,3 +1,6 @@
+-- TOPICS: Filtering (WHERE), Comparison Operators, Range (BETWEEN), Sets (IN), 
+-- Pattern Matching (LIKE), NULL Handling, Logical Operators (AND, OR, NOT).
+
 -- 1. Select employee number, name, and job for all clerks
 select empno,ename,job
     from emp
